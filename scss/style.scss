@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(43, 40, 74);
+    text-transform: capitalize;
+    .container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        table {
+            text-align: center;
+            width: 80%;
+            background-color: antiquewhite;
+            svg {
+                cursor: pointer;
+            }
+            tbody {
+                tr {
+                    box-shadow: 0px 0.5px 2px 0px black;
+                    .name {
+                        font-weight: bold;
+                        font-size: large ;
+                    }
+                    .date {
+                        color: rgba(0, 0, 0, 0.594);
+                        font-size: small;
+                    }
+                }
+            }
+            th,
+            td {
+                border: none;
+                margin: 0;
+                &.buttons {
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    min-height: 40px;
+                    .fa-trash {
+                        color: rgb(196, 1, 1);
+                    }
+                    .fa-pen-to-square {
+                        color: rgb(0, 166, 166);
+                    }
+                    .fa-circle-xmark {
+                        color: rgb(140, 45, 45);
+                    }
+                    .fa-square-check {
+                        color: rgb(5, 105, 5);
+                    }
+                }
+                .fa-plus {
+                    color: beige;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+            th {
+                background-color: rgba(9, 4, 75, 0.523);
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!--fontAwsome-->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!--myFrameWork-->
+        <link rel="stylesheet" href="css/Elcoach-framework.css" />
+        <!--normalize-->
+        <link rel="stylesheet" href="css/normlize.css" />
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="2" style="position: relative">
+                            to do list
+                            <i
+                                class="fa-solid fa-plus"
+                                style="position: absolute; right: 10px"
+                                onclick="addTask()"
+                            ></i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>actions</th>
+                        <th>task</th>
+                    </tr>
+                </thead>
+                <tbody id="tasks"></tbody>
+                <tfoot>
+                    <tr>
+                        <td scope="col" colspan="2" id="numperOfTasks">
+                            numper of tasks
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </body>
+    <script src="js/main.js"></script>
+    <!--fontAwsome-->
+    <script src="js/all.min.js"></script>
+</html>

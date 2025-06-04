@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(43, 40, 74);
+  text-transform: capitalize;
+}
+body .container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container table {
+  text-align: center;
+  width: 80%;
+  background-color: antiquewhite;
+}
+body .container table svg {
+  cursor: pointer;
+}
+body .container table tbody tr {
+  box-shadow: 0px 0.5px 2px 0px black;
+}
+body .container table tbody tr .name {
+  font-weight: bold;
+  font-size: large;
+}
+body .container table tbody tr .date {
+  color: rgba(0, 0, 0, 0.594);
+  font-size: small;
+}
+body .container table th,
+body .container table td {
+  border: none;
+  margin: 0;
+}
+body .container table th.buttons,
+body .container table td.buttons {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40px;
+}
+body .container table th.buttons .fa-trash,
+body .container table td.buttons .fa-trash {
+  color: rgb(196, 1, 1);
+}
+body .container table th.buttons .fa-pen-to-square,
+body .container table td.buttons .fa-pen-to-square {
+  color: rgb(0, 166, 166);
+}
+body .container table th.buttons .fa-circle-xmark,
+body .container table td.buttons .fa-circle-xmark {
+  color: rgb(140, 45, 45);
+}
+body .container table th.buttons .fa-square-check,
+body .container table td.buttons .fa-square-check {
+  color: rgb(5, 105, 5);
+}
+body .container table th .fa-plus,
+body .container table td .fa-plus {
+  color: beige;
+}
+body .container table th p,
+body .container table td p {
+  margin: 0;
+}
+body .container table th {
+  background-color: rgba(9, 4, 75, 0.523);
+}
+
+/*# sourceMappingURL=style.css.map */
