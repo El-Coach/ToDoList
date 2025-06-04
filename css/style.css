@@ -13,6 +13,11 @@ body .container table {
   width: 80%;
   background-color: antiquewhite;
 }
+@media (max-width: 992px) {
+  body .container table {
+    width: 100%;
+  }
+}
 body .container table svg {
   cursor: pointer;
 }
